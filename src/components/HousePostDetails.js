@@ -6,11 +6,8 @@ import { NavLink } from 'react-router-dom'
 function HousePostDetails({houseName, onPostClick}) {
     
     function handlePostClick(){
-        
   
     }
-
-
   return (
     <div>
         <NavLink to='/updatehousename'>
