@@ -39,20 +39,6 @@ function App() {
       </div>
 
 
-    // <div className="App">
-    //   <NavBar />
-     
-    //   <Routes>
-    //     <Route path="/houses" element={<House/>}/>
-            
-
-       
-    //     </Routes>
-      
-    
-     
-     
-    // </div>
   );
 }
 
