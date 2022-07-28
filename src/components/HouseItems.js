@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import HouseItemsUpdate from './HouseItemsUpdate';
 import './css/houseitems.css'
-
-
 function HouseItems() {
     const [houseItems, setHouseItems] = useState([]);
     useEffect(()=>{
@@ -18,7 +16,6 @@ function HouseItems() {
                 <div className='imageParentDiv'>
                 <div className='imageOneList'>
                       <img src= {house.image1} alt="Image house" className='imageList'></img>
-
                 </div>
                 <div className='imageTwoList'>
                 <img src= {house.image2} alt="Image house" className=''></img>
@@ -27,9 +24,6 @@ function HouseItems() {
                 <img src= {house.image2} alt="Image house" className=''></img>
 
                 </div>
-            
-                       
-               
             </div>
                
                <p> {house.name}</p>
