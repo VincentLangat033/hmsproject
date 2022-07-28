@@ -1,0 +1,33 @@
+.headerContent{
+    display: flex;
+    justify-content: end;
+    color: blue;
+    padding-top: 2rem;
+    font-size: larger;
+    padding-right: 4rem;
+    height: 60px;
+    /* background-color: rgb(147, 179, 207); */
+    background-color: #1775ee;
+  
+  }
+  .navEdit{
+    margin: 15px;
+    width: 90%;
+    align-self: center;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    background-color: #42b72a;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .navHms{
+      margin-right: 845px;
+      border-radius: 10px;
+      border: none;
+      height: 35px;
+      align-self: center;
+      
+  }
