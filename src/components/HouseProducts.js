@@ -78,7 +78,7 @@ function HouseProducts() {
          
                               />
                            <HouseStateUpdate
-                        //    key={house.id}
+                       
                            house={house}
                 
 
