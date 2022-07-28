@@ -12,6 +12,7 @@ import './css/house.css'
 function House() {
   return (
     <div>
+      {/* to clean up */}
      
     </div>
   )
