@@ -1,6 +1,5 @@
 import React from 'react'
 import './css/houseproducts.css'
-
 function HouseDelete({house, onDeleteClick}) {
     const { id, } = house;
 
