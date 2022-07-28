@@ -24,10 +24,7 @@ function App() {
           
         </div>
         <div className='midContentBody'>
-         {/* <Register /> */}
-          {/* <Login /> */}
-          {/* <HouseItems /> */}
-          {/* <HouseProducts /> */}
+        
           <Routes>
        <Route exact path="/houses" element={<HouseProducts />}/>
        <Route exact path="/houseform" element ={<HouseForm />} />
