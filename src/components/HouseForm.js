@@ -8,7 +8,6 @@ function HouseForm() {
         image2: "",
         image3: "",
         // answer3: "",
-        // answer4: "",
         // correctIndex: 0,
       });
     
