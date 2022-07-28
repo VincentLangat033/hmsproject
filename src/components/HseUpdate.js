@@ -27,12 +27,8 @@ function HseUpdate() {
             
                        
                
-            </div>
-               
+            </div>  
                <p> {house.name}</p>
-            
-            
-
         </div>
         </div> 
         
