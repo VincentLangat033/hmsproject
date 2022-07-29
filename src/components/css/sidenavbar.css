@@ -25,13 +25,15 @@
     padding: 10px;
     border-radius: 5px;
     font-weight: bold;
+    color: aliceblue;
+    background-color: #1775ee;
 }
 .sidebarHR{
     margin: 20px 0;
     width: 100%;
 }
 .sideBarButton{
-    
+    color: aliceblue;
     border-radius: 10px;
     border: none;
     height: 40px;
@@ -39,4 +41,5 @@
     font-size: 15px;
     font-weight: 500;
     cursor: pointer;
+    background-color: #42b72a;
 }
