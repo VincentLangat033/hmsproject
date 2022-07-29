@@ -4,10 +4,10 @@ import { NavLink } from 'react-router-dom'
 function NavBar() {
   return (
       <div className='headerContent'>
-        <NavLink to='/houses'>
+        <NavLink to='/'>
         <a href='#'> <button className='navHms'> HMS</button> </a>
         </NavLink>
-        <NavLink to="/houses">
+        <NavLink to="/">
         <button className='navEdit'>Home</button>
         </NavLink>
         <NavLink to="/about">
