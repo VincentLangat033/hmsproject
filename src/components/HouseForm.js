@@ -16,11 +16,12 @@ function HouseForm() {
           ...formData,
           [event.target.name]: event.target.value,
         });
+       
       }
     
       function handleSubmit(event) {
         event.preventDefault();
-        fetch("https://hms-server1235.herokuapp.com/houses", {
+        fetch("https://hmsserver001.herokuapp.com/houses", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

@@ -2,7 +2,7 @@ import React,{useState,useEffect} from 'react'
 function HseUpdate() {
     const [houseItems, setHouseItems] = useState([]);
     useEffect(()=>{
-        fetch('https://hms-server1235.herokuapp.com/houses')
+        fetch('https://hmsserver001.herokuapp.com/houses')
         .then((res)=>res.json())
         .then((data)=>setHouseItems(data))
     })
@@ -20,7 +20,12 @@ function HseUpdate() {
                 <img src= {house.image2} alt="Image house" className=''></img>
                 </div>  
             </div>  
-               <p> {house.name}</p>
+               <h2> {house.name}</h2>
+               <h3> Rent: Ksh{house.amount}</h3>
+               <h4>Description</h4>
+               
+               <p>{house.about}</p>
+
         </div>
         </div> 
     ));

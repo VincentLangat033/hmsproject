@@ -9,13 +9,13 @@ import {NavLink} from 'react-router-dom'
 function HouseProducts() {
     const [houseProducts, setHouseProducts] = useState([]);
     useEffect(()=>{
-        fetch('https://hms-server1235.herokuapp.com/houses')
+        fetch('https://hmsserver001.herokuapp.com/houses')
         .then((res)=>res.json())
         .then((data)=>setHouseProducts(data))
     })
 
     function handleDeleteClick(id) {
-        fetch(`https://hms-server1235.herokuapp.com/houses/${id}`, {
+        fetch(`https://hmsserver001.herokuapp.com/houses/${id}`, {
           method: "DELETE",
         })
           .then((r) => r.json())
@@ -25,7 +25,7 @@ function HouseProducts() {
           });
       }
       function handlePostClick(id){
-        fetch(`https://hms-server1235.herokuapp.com/houses/${id}`)
+        fetch(`https://hmsserver001.herokuapp.com/houses/${id}`)
         .then ((r)=>r.json())
         .then ((data)=>console.log(data))
         // alert('now')
@@ -33,7 +33,7 @@ function HouseProducts() {
 
       }
       function handleAnswers(id, name) {
-        fetch(`https://hms-server1235.herokuapp.com/houses/${id}`, {
+        fetch(`https://hmsserver001.herokuapp.com/houses/${id}`, {
           method: "PATCH",
           headers: {
             "Content-Type": "application/json",
