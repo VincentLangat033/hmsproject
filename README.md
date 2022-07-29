@@ -21,7 +21,8 @@ Incase of any issues or questions, you can get in touch with me via email at kim
 <h2> Access to the Rest API</h2>
 <h3>
   My Json Server has been hosted on Heroku and you can make POST GET PATCH DELETE methods to the Api.
-  To Check the db.json file click the following click: https://hmsserver001.herokuapp.com/houses
+  To Check the db.json file click the following click:
+  https://hmsphase2project.netlify.app/
 </h3>
 This website has been hosted remotely on Netlify. The Link to the hosted page is : https://hmsdemonetlify.netlify.app/
 If you need help hosting your website on Netlify Access the below documentation for guidance.
