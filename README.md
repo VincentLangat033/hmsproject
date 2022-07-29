@@ -16,7 +16,7 @@ By Vincent Kimutai  28/07/2022
 </ol>
 <h1> Technologies Used</h1>
 HTML,CSS and React
-<h1> Contact Details</h1>git 
+<h1> Contact Details</h1>
 Incase of any issues or questions, you can get in touch with me via email at kimutailangat033@gmail.com, also via phone on +254723753014. Also feel free to contribute to my project.
 <h2> Access to the Rest API</h2>
 <h3>
