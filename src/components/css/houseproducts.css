@@ -2,8 +2,9 @@
     float: left;
     width: 30%;
     padding: 5px;
-    height: 350px;
+    height: 430px;
     margin: 10px;
+    background-color: #F4ECEC;
 
     
   }
@@ -23,7 +24,8 @@
     font-weight: 800;
     color: #1775ee;
     margin-bottom: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
+    border: none;
    
     
 }
@@ -32,7 +34,8 @@
     font-weight: 800;
     color: #1775ee;
     margin-bottom: 10px;
-    border-radius: 3px;
+    border-radius: 10px;
+    border: none;
     outline: none;
 }
 
